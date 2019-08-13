@@ -252,18 +252,18 @@ outro aluno vai utilizar o sistema. Após todos os alunos terem respondido infor
     2. Total de Alunos que utilizaram o sistema;
     3. A Média das Notas da Turma.
 
-        Gabarito da Prova:
-    
-        01 A
-        02 B
-        03 C
-        04 D
-        05 E
-        06 E
-        07 D
-        08 C
-        09 B
-        10 A
+            Gabarito da Prova:
+        
+            01 A
+            02 B
+            03 C
+            04 D
+            05 E
+            06 E
+            07 D
+            08 C
+            09 B
+            10 A
         
 38. Após concluir isto você poderia incrementar o programa permitindo que o professor digite o gabarito da prova antes dos alunos usarem o programa.
 
