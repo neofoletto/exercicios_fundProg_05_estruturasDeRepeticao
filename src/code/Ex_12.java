@@ -18,22 +18,28 @@ import java.util.Scanner;
 
 /**
  * @author neo
- * @create 12/08/2019
+ * @create 11/08/2019
  */
-public class ex_15 {
+public class Ex_12 {
   public static void main(String[] args) {
     Scanner imput = new Scanner(System.in);
 
-    double resultado = 0;
-    int multiplica   = 38;
-    int divide       = 1;
+    int num  = 0;
+    int fib  = 1;
+    int aux1 = 1;
+    int aux2 = 0;
 
-    System.out.println("\nResultado da série: (37*38)/1 + (36*37)/2 + (35*36)/3 + ... + (1 * 2)/37");
-    for (int i = 0; i < 37; i++) {
-      resultado += (double)((multiplica - 1) * multiplica) / divide;
-      multiplica--;
-      divide++;
+    System.out.println("\nFibonacci\n");
+    System.out.print("Informe número de termos para série de Fibonacci: ");
+    num = imput.nextInt();
+    while (num < 0)
+      num = imput.nextInt();
+
+    for (int i = 0; i < num; i++) {
+      fib = aux1 + aux2;
+      aux1 = aux2;
+      aux2 = fib;
+      System.out.printf("%d, ", fib);
     }
-    System.out.printf("\nResultado: %.3f", resultado);
   }
 }

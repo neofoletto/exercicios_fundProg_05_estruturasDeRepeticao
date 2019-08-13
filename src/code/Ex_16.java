@@ -16,7 +16,11 @@ package code;
 
 import java.util.Scanner;
 
-public class ex_16 {
+/**
+ * @author neo
+ * @create 11/08/2019
+ */
+public class Ex_16 {
   public static void main(String[] args) {
     Scanner imput = new Scanner(System.in);
 

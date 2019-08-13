@@ -20,17 +20,21 @@ import java.util.Scanner;
  * @author neo
  * @create 11/08/2019
  */
-public class ex_09 {
+public class Ex_01 {
   public static void main(String[] args) {
     Scanner imput = new Scanner(System.in);
 
-    int num = 0;
+    float nota = -1;
 
-    System.out.println("\nTabuada\n");
-    System.out.print("Informe número: ");
-    num = imput.nextInt();
+    System.out.println("\nInforme NOTA\n");
+    while (nota < 0 || nota > 10) {
+      System.out.print("Informe nota (0 até 10): ");
+      nota = imput.nextFloat();
+      if (nota < 0 || nota > 10)
+        nota = imput.nextFloat();
+    }
 
-    for (int i = num; i < 11; i++)
-      System.out.printf("\n%d x %d = %d", num, i, (num * i));
+    System.out.println("\nNOTAex");
+    System.out.printf("Nota é: %.1f\n", nota);
   }
 }

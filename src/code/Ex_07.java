@@ -20,29 +20,20 @@ import java.util.Scanner;
  * @author neo
  * @create 11/08/2019
  */
-public class ex_11 {
+public class Ex_07 {
   public static void main(String[] args) {
     Scanner imput = new Scanner(System.in);
 
-    final int TAM = 10;
+    int num1 = 0;
+    int num2 = 0;
 
-    double num[] = new double[TAM];
-    int par   = 0;
-    int impar = 0;
+    System.out.println("\nIntervalo sobre números\n");
+    System.out.print("Informe número: ");
+    num1 = imput.nextInt();
+    System.out.print("Informe número: ");
+    num2 = imput.nextInt();
 
-    System.out.println("\nNúmeros pares e ímpares\n");
-    System.out.println("Informe 10 números");
-    for (int i = 0; i < TAM; i++) {
-      System.out.print("Informe numero: ");
-      num[i] = imput.nextDouble();
-      if (num[i] % 2 == 0)
-        par++;
-      else
-        impar++;
-    }
-
-    System.out.println("\nResultado\n");
-    System.out.printf("%d número(s) par(es)", par);
-    System.out.printf("\n%d número(s) ímpar(es)", impar);
+    for (int i = num1; i < (num2 + 1); i++)
+      System.out.printf("%d ", i);
   }
 }

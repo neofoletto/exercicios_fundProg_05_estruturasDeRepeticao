@@ -14,30 +14,13 @@
 
 package code;
 
-import java.util.Scanner;
-
 /**
  * @author neo
- * @create 12/08/2019
+ * @create 11/08/2019
  */
-public class ex_14 {
+public class Ex_06 {
   public static void main(String[] args) {
-    Scanner imput = new Scanner(System.in);
-
-    int num = 0;
-
-    System.out.println("\nSërie numérica\n");
-    System.out.print("Informe número inteiro: ");
-    num = imput.nextInt();
-    while (num < 0)
-      num = imput.nextInt();
-
-    System.out.println("\nResultado");
-    System.out.print("S = ");
-    for (int i = 0; i < num; i++) {
-      System.out.printf("%d/%d + ", i, (i + 1));
-      if (i == (num - 1))
-        System.out.printf("%d/%d", i, (i + 1));
-    }
+    for (int i = 1; i <= 50; i += 2)
+      System.out.println(i);
   }
 }

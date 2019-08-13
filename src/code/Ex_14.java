@@ -18,23 +18,26 @@ import java.util.Scanner;
 
 /**
  * @author neo
- * @create 08/08/2019
+ * @create 12/08/2019
  */
-public class ex_04 {
+public class Ex_14 {
   public static void main(String[] args) {
-    final double CRESCIMENTOA = 0.03;
-    final double CRESCIMENTOB = 0.015;
+    Scanner imput = new Scanner(System.in);
 
-    int cidadeA = 80000;
-    int cidadeB = 200000;
-    int contAnos = 0;
+    int num = 0;
 
-    while (cidadeA < cidadeB) {
-      cidadeA += cidadeA * CRESCIMENTOA;
-      cidadeB += cidadeB * CRESCIMENTOB;
-      contAnos++;
+    System.out.println("\nSërie numérica\n");
+    System.out.print("Informe número inteiro: ");
+    num = imput.nextInt();
+    while (num < 0)
+      num = imput.nextInt();
+
+    System.out.println("\nResultado");
+    System.out.print("S = ");
+    for (int i = 0; i < num; i++) {
+      System.out.printf("%d/%d + ", i, (i + 1));
+      if (i == (num - 1))
+        System.out.printf("%d/%d", i, (i + 1));
     }
-
-    System.out.printf("\nA cidade A ultrapassará o número de habitantes da cidade B em %d anos.\n", contAnos);
   }
 }

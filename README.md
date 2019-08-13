@@ -6,7 +6,7 @@ seja inválido e continue pedindo até que o usuário informe um valor válido.
 2. Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao
 nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
 3. Faça um programa que leia e valide as seguintes informações:
-    
+
     a. Nome: maior que 3 caracteres;
     b. Idade: entre 0 e 150;
     c. Salário: maior que zero;
@@ -100,7 +100,7 @@ tabela de preços. Você foi contratado para desenvolver o programa que monta es
 preços, que conterá os preços de 1 até 50 produtos, conforme o exemplo abaixo:
  
     Lojas Quase Dois - Tabela de preços
-        
+
         1 - R$ 1.99
         2 - R$ 3.98
         ...
@@ -172,7 +172,7 @@ baixo, junto com suas alturas.
 
 32. Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes
 de trânsito. Foram obtidos os seguintes dados:
-    
+
     a. Código da cidade;
     b. Número de veículos de passeio (em 1999);
     c. Número de acidentes de trânsito com vítimas (em 1999). Deseja-se saber:
@@ -223,26 +223,29 @@ meio de código. Os códigos utilizados são:
 
     1 , 2, 3, 4 - Votos para os respectivos candidatos
     
-    (você deve montar a tabela ex: 1  Jose/ 2- João/etc)
+    (você deve montar a tabela ex: 
     
-        5 | Voto Nulo
-        6 | Voto em Branco
+        1 - Candidato 01
+        2 - Candidato 02
+        3 - Candidato 03
+        4 - Candidato 04
+        5 - Voto Nulo
+        6 - Voto em Branco
 
     Faça um programa que calcule e mostre:
         
         a. O total de votos para cada candidato;
         b. O total de votos nulos;
-        O total de votos em branco;
-        c. A percentagem de votos nulos sobre o total de votos;
-        d. A percentagem de votos em branco sobre o total de votos. Para finalizar o conjunto de votos
-        tem-se o valor zero.
-  
+        c. O total de votos em branco;
+        d. A percentagem de votos nulos sobre o total de votos;
+        e. A percentagem de votos em branco sobre o total de votos. Para finalizar o conjunto de votos tem-se o valor zero.
+
 37. Desenvolver um programa para verificar a nota do aluno em uma prova com 10
 questões, o programa deve perguntar ao aluno a resposta de cada questão e ao final
 comparar com o gabarito da prova e assim calcular o total de acertos e a nota (atribuir 1
 ponto por resposta certa). Após cada aluno utilizar o sistema deve ser feita uma pergunta se
 outro aluno vai utilizar o sistema. Após todos os alunos terem respondido informar:
-    
+
     a. Maior e Menor Acerto;
     b. Total de Alunos que utilizaram o sistema;
     c. A Média das Notas da Turma.

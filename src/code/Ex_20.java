@@ -16,24 +16,33 @@ package code;
 
 import java.util.Scanner;
 
-public class ex_17 {
+/**
+ * @author neo
+ * @create 11/08/2019
+ */
+public class Ex_20 {
   public static void main(String[] args) {
     Scanner imput = new Scanner(System.in);
 
-    float num = 0;
+    float nota  = 0;
+    float media = 0;
+    int cont    = 1;
 
-    System.out.println("\nNumero Primeo\n");
-    System.out.print("Informe número inteiro: ");
-    num = imput.nextFloat();
-    while (num != (int)num)
-      num = imput.nextFloat();
+    System.out.println("\nMédia de notas");
+    System.out.println("\nInforme -1 para sair\n");
+    System.out.println("Informe números..");
+    while (nota >= 0 && nota <= 10) {
+      System.out.printf("\nNota %d: ", cont);
+      nota = imput.nextFloat();
+      if (nota >= 0 && nota <= 10)
+        media += nota;
+      cont++;
+    }
 
-    System.out.println("\nResutaldo");
-    if ((num % 2 != 0 && num % 3 != 0 && num != 0)
-      || (num == 2 || num == 3))
-      System.out.printf("%d é primo", (int)num);
-    else
-      System.out.printf("%d não é primo", (int)num);
+    media /= cont;
+
+    System.out.println("\nResultado:");
+    System.out.printf("Média: %.2f", media);
   }
 }
 

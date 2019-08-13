@@ -18,22 +18,16 @@ import java.util.Scanner;
 
 /**
  * @author neo
- * @create 11/08/2019
+ * @create 12/08/2019
  */
-public class ex_07 {
+public class Ex_26 {
   public static void main(String[] args) {
     Scanner imput = new Scanner(System.in);
 
-    int num1 = 0;
-    int num2 = 0;
+    final double VALOR = 0.18f;
 
-    System.out.println("\nIntervalo sobre números\n");
-    System.out.print("Informe número: ");
-    num1 = imput.nextInt();
-    System.out.print("Informe número: ");
-    num2 = imput.nextInt();
-
-    for (int i = num1; i < (num2 + 1); i++)
-      System.out.printf("%d ", i);
+    System.out.println("\nPanificadora Pãode Ontem - Tabela de preços\n");
+    for (int i = 1; i <= 50; i++)
+      System.out.printf("\n%d - R$: %.2f", i, (VALOR * i));
   }
 }

@@ -20,7 +20,7 @@ import java.util.Scanner;
  * @author neo
  * @create 11/08/2019
  */
-public class ex_03 {
+public class Ex_03 {
   public static void main(String[] args) {
     Scanner imput = new Scanner(System.in);
 

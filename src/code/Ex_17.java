@@ -20,24 +20,24 @@ import java.util.Scanner;
  * @author neo
  * @create 11/08/2019
  */
-public class ex_08 {
+public class Ex_17 {
   public static void main(String[] args) {
     Scanner imput = new Scanner(System.in);
 
-    int num1 = 0;
-    int num2 = 0;
-    int soma = 0;
+    float num = 0;
 
-    System.out.println("\nIntervalo sobre números\n");
-    System.out.print("Informe número: ");
-    num1 = imput.nextInt();
-    System.out.print("Informe número: ");
-    num2 = imput.nextInt();
+    System.out.println("\nNumero Primeo\n");
+    System.out.print("Informe número inteiro: ");
+    num = imput.nextFloat();
+    while (num != (int)num)
+      num = imput.nextFloat();
 
-    for (int i = num1; i < (num2 + 1); i++) {
-      System.out.printf("%d ", i);
-      soma += i;
-    }
-    System.out.printf("\nSoma: %d", soma);
+    System.out.println("\nResutaldo");
+    if ((num % 2 != 0 && num % 3 != 0 && num != 0)
+      || (num == 2 || num == 3))
+      System.out.printf("%d é primo", (int)num);
+    else
+      System.out.printf("%d não é primo", (int)num);
   }
 }
+
