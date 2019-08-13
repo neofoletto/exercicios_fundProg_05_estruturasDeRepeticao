@@ -265,12 +265,10 @@ outro aluno vai utilizar o sistema. Após todos os alunos terem respondido infor
         09 B
         10 A
         
-    Após concluir isto você poderia incrementar o programa permitindo que o professor digite o
-    gabarito da prova antes dos alunos usarem o programa.
-    
-    Faça um programa que peça um numero inteiro positivo e em seguida mostre este numero
-    invertido.
-    
+38. Após concluir isto você poderia incrementar o programa permitindo que o professor digite o gabarito da prova antes dos alunos usarem o programa.
+
+39. Faça um programa que peça um numero inteiro positivo e em seguida mostre este numero invertido.
+
     Exemplo:
     
         12376489
