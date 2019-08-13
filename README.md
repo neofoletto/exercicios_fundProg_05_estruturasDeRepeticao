@@ -7,11 +7,11 @@ seja inválido e continue pedindo até que o usuário informe um valor válido.
 nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
 3. Faça um programa que leia e valide as seguintes informações:
 
-        a. Nome: maior que 3 caracteres;
-        b. Idade: entre 0 e 150;
-        c. Salário: maior que zero;
-        d. Sexo: 'f' ou 'm';
-        e. Estado Civil: 's', 'c', 'v', 'd';
+    1. Nome: maior que 3 caracteres;
+    2. Idade: entre 0 e 150;
+    3. Salário: maior que zero;
+    4. Sexo: 'f' ou 'm';
+    5. Estado Civil: 's', 'c', 'v', 'd';
 
 4. Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa
 anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de
@@ -173,12 +173,12 @@ baixo, junto com suas alturas.
 32. Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes
 de trânsito. Foram obtidos os seguintes dados:
 
-        a. Código da cidade;
-        b. Número de veículos de passeio (em 1999);
-        c. Número de acidentes de trânsito com vítimas (em 1999). Deseja-se saber:
-        d. Qual o maior e menor índice de acidentes de transito e a que cidade pertence;
-        e. Qual a média de veículos nas cinco cidades juntas;
-        f. Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.
+    1. Código da cidade;
+    2. Número de veículos de passeio (em 1999);
+    3. Número de acidentes de trânsito com vítimas (em 1999). Deseja-se saber:
+    4. Qual o maior e menor índice de acidentes de transito e a que cidade pertence;
+    5. Qual a média de veículos nas cinco cidades juntas;
+    6. Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.
 
 33. Faça um programa que receba o valor de uma dívida e mostre uma tabela com os seguintes
 dados: valor da dívida, valor dos juros, quantidade de parcelas e valor da parcela.
@@ -234,11 +234,11 @@ meio de código. Os códigos utilizados são:
 
     Faça um programa que calcule e mostre:
         
-        a. O total de votos para cada candidato;
-        b. O total de votos nulos;
-        c. O total de votos em branco;
-        d. A percentagem de votos nulos sobre o total de votos;
-        e. A percentagem de votos em branco sobre o total de votos. Para finalizar o conjunto de votos tem-se o valor zero.
+    1. O total de votos para cada candidato;
+    2. O total de votos nulos;
+    3. O total de votos em branco;
+    4. A percentagem de votos nulos sobre o total de votos;
+    5. A percentagem de votos em branco sobre o total de votos. Para finalizar o conjunto de votos tem-se o valor zero.
 
 37. Desenvolver um programa para verificar a nota do aluno em uma prova com 10
 questões, o programa deve perguntar ao aluno a resposta de cada questão e ao final
