@@ -35,7 +35,7 @@ no intervalo compreendido por eles.
 entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve
 ser conforme o exemplo abaixo:
 
-    Tabuada de 5:
+        Tabuada de 5:
         
         5 x 1 = 5
         5 x 2 = 10
@@ -53,11 +53,11 @@ programa capaz de gerar a série até o n−ésimo termo.
 
 13. Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário.
 
-    Ex.: 5!=5.4.3.2.1=120
+        Ex.: 5!=5.4.3.2.1=120
 
 14. Faça um programa que mostre os n termos da Série a seguir:
 
-    S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m.
+        S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m.
 
 15. Mostre e calcule a série S = (37*38)/1 + (36*37)/2 + (35*36)/3 + ... + (1*2)/37.
 
@@ -111,12 +111,13 @@ metodologia da tabelinha, que já é um sucesso na sua loja de 1,99. Você foi c
 desenvolver o programa que monta a tabela de preços de pães, de 1 até 50 pães, a partir do
 preço do pão informado pelo usuário, conforme o exemplo abaixo:
 Preço do pão: R$ 0.18
-Panificadora Pão de Ontem - Tabela de preços
 
-    1 - R$ 0.18
-    2 - R$ 0.36
-    ...
-    50 - R$ 9.00
+        Panificadora Pão de Ontem - Tabela de preços
+
+        1 - R$ 0.18
+        2 - R$ 0.36
+        ...
+        50 - R$ 9.00
 
 27. O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e agora
 possui uma loja de conveniências. Faça um programa que implemente uma caixa
@@ -127,7 +128,7 @@ valor em dinheiro que o cliente forneceu, para então calcular e mostrar o valor
 Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima
 compra. A saída deve ser conforme o exemplo abaixo:
 
-    Lojas Tabajara
+        Lojas Tabajara
        
         Produto 1: R$ 2.20
         Produto 2: R$ 5.80
@@ -145,11 +146,12 @@ maior temperaturas informadas, bem como a média das temperaturas.
 digitado pelo usuário, mas a tabuada não deve necessariamente iniciar em 1 e terminar em
 10, o valor inicial e final devem ser informados também pelo usuário, conforme exemplo
 abaixo:
-    Montar a tabuada de: 5
-    Começar por: 4
-    Terminar em: 7
-    Vou montar a tabuada de 5 começando em 4 e terminando em 7:
-    
+
+    1. Montar a tabuada de: 5
+    2. Começar por: 4
+    3. Terminar em: 7
+    4. Vou montar a tabuada de 5 começando em 4 e terminando em 7:
+
         5 x 4 = 20
         5 x 5 = 25
         5 x 6 = 30
@@ -250,7 +252,7 @@ outro aluno vai utilizar o sistema. Após todos os alunos terem respondido infor
     2. Total de Alunos que utilizaram o sistema;
     3. A Média das Notas da Turma.
 
-    Gabarito da Prova:
+        Gabarito da Prova:
     
         01 A
         02 B
