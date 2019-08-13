@@ -246,9 +246,9 @@ comparar com o gabarito da prova e assim calcular o total de acertos e a nota (a
 ponto por resposta certa). Após cada aluno utilizar o sistema deve ser feita uma pergunta se
 outro aluno vai utilizar o sistema. Após todos os alunos terem respondido informar:
 
-    a. Maior e Menor Acerto;
-    b. Total de Alunos que utilizaram o sistema;
-    c. A Média das Notas da Turma.
+    1. Maior e Menor Acerto;
+    2. Total de Alunos que utilizaram o sistema;
+    3. A Média das Notas da Turma.
 
     Gabarito da Prova:
     
