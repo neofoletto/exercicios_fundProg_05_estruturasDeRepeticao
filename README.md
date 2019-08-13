@@ -7,11 +7,11 @@ seja inválido e continue pedindo até que o usuário informe um valor válido.
 nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
 3. Faça um programa que leia e valide as seguintes informações:
 
-    a. Nome: maior que 3 caracteres;
-    b. Idade: entre 0 e 150;
-    c. Salário: maior que zero;
-    d. Sexo: 'f' ou 'm';
-    e. Estado Civil: 's', 'c', 'v', 'd';
+        a. Nome: maior que 3 caracteres;
+        b. Idade: entre 0 e 150;
+        c. Salário: maior que zero;
+        d. Sexo: 'f' ou 'm';
+        e. Estado Civil: 's', 'c', 'v', 'd';
 
 4. Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa
 anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de
@@ -173,12 +173,12 @@ baixo, junto com suas alturas.
 32. Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes
 de trânsito. Foram obtidos os seguintes dados:
 
-    a. Código da cidade;
-    b. Número de veículos de passeio (em 1999);
-    c. Número de acidentes de trânsito com vítimas (em 1999). Deseja-se saber:
-    d. Qual o maior e menor índice de acidentes de transito e a que cidade pertence;
-    e. Qual a média de veículos nas cinco cidades juntas;
-    f. Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.
+        a. Código da cidade;
+        b. Número de veículos de passeio (em 1999);
+        c. Número de acidentes de trânsito com vítimas (em 1999). Deseja-se saber:
+        d. Qual o maior e menor índice de acidentes de transito e a que cidade pertence;
+        e. Qual a média de veículos nas cinco cidades juntas;
+        f. Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.
 
 33. Faça um programa que receba o valor de uma dívida e mostre uma tabela com os seguintes
 dados: valor da dívida, valor dos juros, quantidade de parcelas e valor da parcela.
