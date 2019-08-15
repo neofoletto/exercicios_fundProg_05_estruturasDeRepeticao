@@ -12,20 +12,21 @@
  * software and other kinds of works.
  */
 
-package code;
+package utils;
 
 /**
  * @author neo
  * @create 12/08/2019
  */
-public class Ex_31_pessoa {
+public class Pessoa {
 
-  private String nome;
+  private String nome = "";
+  private int codigo = -1;
   private float altura;
+  private float peso;
 
-  public Ex_31_pessoa() {
+  public Pessoa() { }
 
-  }
   public String getNome() {
     return nome;
   }
@@ -33,6 +34,18 @@ public class Ex_31_pessoa {
   public boolean setNome(String nome) {
     if (nome.length() >= 3) {
       this.nome = nome;
+      return true;
+    }
+    return false;
+  }
+
+  public int getCodigo() {
+    return codigo;
+  }
+
+  public boolean setCodigo(int codigo) {
+    if (codigo >= 0) {
+      this.codigo = codigo;
       return true;
     }
     return false;
@@ -50,11 +63,27 @@ public class Ex_31_pessoa {
     return false;
   }
 
+  public float getPeso() {
+    return peso;
+  }
+
+  public boolean setPeso(float peso) {
+    if (peso > 0) {
+      this.peso = peso;
+      return true;
+    }
+    return false;
+  }
+
   @Override
   public String toString() {
     final StringBuilder sb = new StringBuilder();
-    sb.append("\nNome   = ").append(nome);
+    if (codigo != -1)
+      sb.append("\nCódigo = ").append(codigo);
+    if (!nome.isBlank() || !nome.isEmpty())
+      sb.append("\nNome   = ").append(nome);
     sb.append("\nAltura = ").append(altura);
+    sb.append("\nPeso   = ").append(peso);
     return sb.toString();
   }
 }
